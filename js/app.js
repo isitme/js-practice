@@ -1,5 +1,5 @@
 
-
+// Inheritance and Prototype for function construction..
  var person = function calculateAge(name, yearOfBirth, job){
     this.name = name,
     this.yearOfBirth = yearOfBirth,
