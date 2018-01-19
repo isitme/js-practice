@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+.value{
+    margin-top: 400px;
+    position: relative;
+}
+
+
+
+.from-imput:focus{
+    border-color:none;    
+}
+
+.ctt{
+    margin-left: 500px;
+    
+}
+#464a4c
+#5cb3fd
