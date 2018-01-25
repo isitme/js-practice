@@ -132,7 +132,7 @@ you can creater an argument like this}
 // Have to Understant (closures)
 
 */
-
+/*
 // Bind, call and Apply
 
 var rakibul = {
@@ -163,7 +163,7 @@ rakibul.presentation("friendly", "afternoon");
 
 
 var fulon = {
-    name: "Rakibul",
+    name: "Fulon",
     age: 20,
     job: "Student",
 }
@@ -171,13 +171,14 @@ var fulon = {
 
 rakibul.presentation.call(fulon, "formal", "morning");
 
-// The bind don't work, It should work
-
-var bindMethod = rakibul.presentation.bind(rakibul, "frinedly");
-
-bindMethod("afternoon");
+// The is Bind.
+var rakibulBind = rakibul.presentation.bind(rakibul, "friendly");
+rakibulBind("morning");
 
 
+var fulonBind = rakibul.presentation.bind(fulon, "formal");
+fulonBind("afternoon");
+*/
 
 
 
