@@ -19,9 +19,6 @@
  jhon.calculateAge();
  console.log(jhon.name+" "+jhon.lastName);
 
- const name = "rakibul";
-
- console.log(name);
 */
 
 // Premitive example: This will change
@@ -179,6 +176,71 @@ rakibulBind("morning");
 var fulonBind = rakibul.presentation.bind(fulon, "formal");
 fulonBind("afternoon");
 */
+
+
+var Person = function(name, YearOfBirth, job){
+    this.name = name;
+    this.YearOfBirth = YearOfBirth;
+    this.job = job;
+};
+
+var rakibul = new Person("Rakibul", 1997, "Student");
+var fulon = new Person("Fulon", 1998, "Student");
+
+Person.prototype.calculateAge = function(){
+    console.log(2018 - this.YearOfBirth);
+};
+
+Person.prototype.LastName = "islam";
+console.log(rakibul);
+
+rakibul.calculateAge();
+fulon.calculateAge();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

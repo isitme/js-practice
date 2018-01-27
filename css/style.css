@@ -14,7 +14,7 @@ Main color:
 
 body {
     font-size: 16px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 1.2px;
     line-height: 1.7;
     color: #fff;
@@ -52,7 +52,7 @@ header {
     color: #fff;
     text-decoration: none;
     letter-spacing: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .hero-text-box {
@@ -71,8 +71,10 @@ header {
     display: block;
     font-size: 300%;
     letter-spacing: 10px;
+    font-weight: 300;
 }
 
 .heading-primary-sub {
     display: block;
+    font-weight: 400;
 }
