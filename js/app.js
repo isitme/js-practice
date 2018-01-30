@@ -178,24 +178,34 @@ fulonBind("afternoon");
 */
 
 
-var Person = function(name, YearOfBirth, job){
-    this.name = name;
-    this.YearOfBirth = YearOfBirth;
-    this.job = job;
-};
+// var years = [1992, 1995, 1997, 1996, 1990];
 
-var rakibul = new Person("Rakibul", 1997, "Student");
-var fulon = new Person("Fulon", 1998, "Student");
+// function arrcal(arr, fn){
+//     var arrRes = [];
 
-Person.prototype.calculateAge = function(){
-    console.log(2018 - this.YearOfBirth);
-};
+//     for(var i = 0; i < arr.length; i++){
+//         arrRes.push(fn(arr[i]));
+//     }
+//     return arrRes;
+// }
 
-Person.prototype.LastName = "islam";
-console.log(rakibul);
+// function calculateAge(el){
+//     return 2018 - el;
+// }
 
-rakibul.calculateAge();
-fulon.calculateAge();
+// function isFullage(el){
+//     return el >= 18;
+// }
+
+// var ages = arrcal(years, calculateAge);
+
+// console.log(ages);
+
+
+
+
+
+
 
 
 
